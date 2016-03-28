@@ -1,0 +1,25 @@
+body 
+{
+    font-family: sans-serif;
+}
+.geen 
+{
+    display: block;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-image: url(sterren/wandlamp-ster-klein-licht-grijs.jpg);
+    
+}
+.geen:hover
+{
+    cursor: pointer;
+    background-image: url(sterren/hoverster.jpg);
+}
+.geen span {
+    display: inline-block;
+    width: 0px;
+    height: 80px;
+    background-image: url(sterren/star_full_256.png);
+    
+}
